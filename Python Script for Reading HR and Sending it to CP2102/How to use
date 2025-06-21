@@ -1,8 +1,21 @@
 This folder contains the Python Script 
 
 To use the script 
-Step - 1) Put the Mac Address of the Chest Strap Sensor into the Macaddress line
+Step - 1) Put the Mac Address of the Chest Strap Sensor into the Mac address line
 Step - 2) Use a BLE Scanner to find the service that reads the heart rate through sensor and put it in the uuid of the measurement
-Step - 3) Run the Script to read the hr and send it to CP2102
+Step - 3) Run the Script to read the hr
 
 A Demo Script is also Included just to read the hr to check if it is working or not
+After using the Demo Script to send the HR , use the USB Script and put the usb port through which the CP2102 is connected
+
+(Same Step 1,2 for the actual script)
+
+Step - 4) Put the usb port address in the script
+- if using linux then would be in form of 
+/dev/ttyUSBX , X = Port number
+check with: 'ls /dev/ttyUSB*' in terminal or konsole
+- if using Windows then it would be in the form of 
+COMX , X = port number
+Check with: 'COMX' USB Ports in Device Manager
+
+Step - 5) Run the Script And use the Microcontroller to display it on the LCD
