@@ -1,0 +1,8 @@
+This folder contains the Python Script 
+
+To use the script 
+Step - 1) Put the Mac Address of the Chest Strap Sensor into the Macaddress line
+Step - 2) Use a BLE Scanner to find the service that reads the heart rate through sensor and put it in the uuid of the measurement
+Step - 3) Run the Script to read the hr and send it to CP2102
+
+A Demo Script is also Included just to read the hr to check if it is working or not
