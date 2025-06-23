@@ -1,0 +1,6 @@
+This folder contains hex files needed for simulation 
+use the hex file to upload to atmega32 
+
+set the baud rate of the virtual terminal 9600 bps which mimics the CP2102 usb-usart adaptor
+
+then make connections as per shown and you can display the hr from the chest strap sensor
