@@ -52,6 +52,15 @@ This project demonstrates a heart rate monitoring system implemented using both 
 > Control and data pins are separated for simplicity in Assembly. This configuration is easier to manage manually when debugging or writing low-level logic.
 
 ---
+### 📥 Serial Communication (CP2102 to ATmega32A)
+
+| LED         | ATmega32A Pin | Description                    |
+| ----------- | ------------- | ------------------------------ |
+| RED         | PC0           | Control RED                    |
+| YELLOW      | PC1           | Control YELLOW                 |
+| GREEN       | PC2           | Control GREEN                  |
+
+---
 
 ### 📥 Serial Communication (CP2102 to ATmega32A)
 
