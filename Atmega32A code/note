@@ -1,0 +1,19 @@
+This folder contains the **AVR C** and **AVR Assembly** implementations of the heart rate monitoring project using the **ATmega32A** microcontroller.
+
+#### 🔌 Pin Connections
+
+* The **AVR C version** uses **only `PORTA`** for both control and data lines of the LCD (4-bit mode).
+* The **Assembly version** separates **control lines on `PORTB`** and **data lines on `PORTA`**, for **implementation simplicity**.
+* Full pin mappings are clearly commented within the Assembly source file.
+* ✅ Circuit diagrams for **both versions** are included for comparison.
+
+#### 📊 HR Display Difference
+
+* The **Assembly version** displays **3-digit output always**, including leading zeros — e.g.,
+  `087 BPM` for a heart rate of 87.
+* The **AVR C version** trims leading zeros and shows only significant digits — e.g.,
+  `87 BPM` for the same value.
+
+This difference is **intentional** for display formatting and does **not affect functionality**.
+
+---
