@@ -72,9 +72,6 @@ This project demonstrates a heart rate monitoring system implemented using both 
   - AVR C: Displays only the significant digits (e.g., `87 BPM`)
   - AVR Assembly: Displays 3 digits with leading zero if needed (e.g., `087 BPM`)
 
-- **LCD Issue (Resolved):**
-  - AVR Assembly version originally had an issue with displaying characters like `':'`. Fixed by ensuring `R23` was not overwritten before `LCD_data` call.
-
 - **Fuse Settings Caution:**
   - In the prototype phase, an incorrect fuse configuration damaged a microcontroller. Be cautious with oscillator settings (internal vs. external) during fuse programming.
 
@@ -85,7 +82,7 @@ This project demonstrates a heart rate monitoring system implemented using both 
 As the ATmega32A was damaged during testing, a working **Arduino + LCD** prototype was demonstrated and recorded:
 
 🎥 **[Watch Demo Video](https://drive.google.com/file/d/1U2ADGtkiBTtQ4Idgcnshs2hNRUzYHpso/view?usp=drive_link)**
-🎥**[Simulation Video](https://drive.google.com/file/d/1HIZsekGuvAcTSAcb2SeT70SbPDkjaX5E/view?usp=drive_link)**
+🎥 **[Simulation Video](https://drive.google.com/file/d/1HIZsekGuvAcTSAcb2SeT70SbPDkjaX5E/view?usp=drive_link)**
 ---
 
 ## ✅ Tools & Environment
